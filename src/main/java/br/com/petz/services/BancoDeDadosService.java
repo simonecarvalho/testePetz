@@ -21,7 +21,7 @@ public class BancoDeDadosService {
 	private ClienteRepository clienteRepository;
 
 	public void inicializarBancoDeDados() {
-		Cliente cliente = new Cliente(null, "Maria da Silva", "maria;silva@email.com", "969.564.050-83", TipoCliente.PESSOAFISICA, "91234-5678");
+		Cliente cliente = new Cliente(null, "Maria da Silva", "maria.silva@email.com", "969.564.050-83", TipoCliente.PESSOAFISICA, "91234-5678");
 		Pet pet1 = new Pet(null, "Luke", "Cachorro", cliente);
 		Pet pet2 = new Pet(null, "Mel", "Gato", cliente);
 		cliente.getPets().addAll(Arrays.asList(pet1,pet2));
