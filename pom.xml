@@ -8,16 +8,14 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>br.com.petz</groupId>
+	<artifactId>testePetz</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>testePetz</name>
+	<description>Teste Petz utilizando Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
-		<hibernate-core.version>5.3.15.Final</hibernate-core.version>
-		<hibernate-jpamodelgen.version>5.3.15.Final</hibernate-jpamodelgen.version>
 	</properties>
 
 	<dependencies>
@@ -73,11 +71,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-        <dependency>
-            <groupId>org.hibernate.validator</groupId>
-            <artifactId>hibernate-validator</artifactId>
-            <version>6.0.18.Final</version>
-        </dependency>
     </dependencies>
 
 	<build>
